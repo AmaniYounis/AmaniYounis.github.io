@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="stylesheet" href="htmlDocumentation.css">
+
+  <head></head>
+  <body>
+  <nav id="navbar">
+    <header>HTML Documentation</header>
+    <ul>
+    <li><a href="#introduction" class="nav-link">Introduction</a></li>
+      <li><a href="#the_history_of_html"class="nav-link">The History of HTML</a></li>
+      <li><a href="#what_are_tags_and_attributes"class="nav-link">What are Tags and Attributes</a></li>
+      <li><a href="#what_are_html_tags"class="nav-link">What Are HTML Tags</a></li>
+              <li><a href="#what_are_html_attributes"class="nav-link">What are HTML Attributes</a></li>
+      <li><a href="#golden_rules_to_remember"class="nav-link">Golden Rules To Remember</a></li>
+<li><a href="#creating_your_first_html_webpage"class="nav-link">Creating Your First HTML Webpage
+</a></li>
+      <li><a href="#basic_construction_of_an_html_page"class="nav-link">Basic Construction of an HTML Page
+</a></li>
+      <li><a href="#further_tags"class="nav-link">Further Tags</a></li>
+      <li><a href="#adding_content"class="nav-link">Adding Content</a></li>
+      <li><a href="#how_to_add_html_headings_to_your_web_page"class="nav-link">How to Add HTML Headings To Your Web Page</a></li>
+      <li><a href="#how_to_add_text_in_html"class="nav-link">How To Add Text In HTML</a></li>
+      <li><a href="#how_to_add_links_in_html"class="nav-link">How To Add Links In HTML</a></li>
+      <li><a href="#reference"class="nav-link">Reference</a></li>
+    </ul>
+  </nav>  
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
+        <p>  HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+<p>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+      </section>
+      
+      <section class="main-section" id="the_history_of_html">
+        <header>The History of HTML</header>
+        <p>HTML was first created by Tim Berners-Lee, Robert Cailliau, and others starting in 1989. It stands for Hyper Text Markup Language.</p>
+<p>
+Hypertext means that the document contains links that allow the reader to jump to other places in the document or to another document altogether. The latest version is known as HTML5.</p>
+<p>
+A Markup Language is a way that computers speak to each other to control how text is processed and presented. To do this HTML uses two things: tags and attributes.</p>
+      </section>
+       <section class="main-section" id="what_are_tags_and_attributes">
+         <header>What are Tags and Attributes</header>
+         <p>Tags and attributes are the basis of HTML</p>
+      </section>
+       <section class="main-section" id="what_are_html_tags">
+         <header>What Are HTML Tags</header>
+         <p>Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets.An example of a tag is: <code>&lt;h1&gt;</code>Most tags must be opened <code>&lt;h1&gt;</code> and closed<code> &lt;/h1&gt; </code>in order to function.</p>
+      </section>
+       
+      <section class="main-section" id="what_are_html_attributes">
+        <header>What are HTML Attributes</header><p>Attributes contain additional pieces of information. Attributes take the form of an opening tag and additional info is placed inside.</p>
+        <p>An example of an attribute is:</p><code>&lt;img src="mydog.jpg" alt="A photo of my dog."&gt;</code>
+        <p>
+In this instance, the image source (src) and the alt text (alt) are attributes of the <code>&lt;img&gt;</code> tag.</p>
+      </section>
+       
+      <section class="main-section" id="golden_rules_to_remember">
+        <header>Golden Rules To Remember</header>
+        <ul>
+          <li>The vast majority of tags must be opened (<code>&lt;tag&gt;</code>) and closed (<code>&lt;/tag&gt;</code>) with the element information such as a title or text resting between the tags.</li>
+<li>When using multiple tags, the tags must be closed in the order in which they were opened. For example:
+</li>
+          
+        </ul>
+         <code>&lt;strong&gt;&lt;em&gt;This is really important!&lt;/em&gt;&lt;/strong&gt;</code>
+      </section>
+      
+       <section class="main-section" id="creating_your_first_html_webpage">
+         <header>Creating Your First HTML Webpage</header>
+         <p>First off, you need to open your HTML editor, where you will find a clean white page on which to write your code.
+From there you need to layout your page with the following tags.</p>
+      </section>
+       
+      <section class="main-section" id="basic_construction_of_an_html_page">
+        <header>Basic Construction of an HTML Page</header>
+        <p>These tags should be placed underneath each other at the top of every HTML page that you create.</p>
+         <ul>
+           <li><code>&lt;!DOCTYPE html&gt;</code><br>This tag specifies the language you will write on the page. In this case, the language is HTML 5.</li><br>
+             <li><code>&lt;html&gt;</code> <br>This tag signals that from here on we are going to write in HTML code.</li><br>
+             <li><code>&lt;head &gt;</code> <br>This is where all the metadata for the page goes — stuff mostly meant for search engines and other computer programs.</li><br>
+             <li><code>&lt;body&gt;</code><br>This is where the content of the page goes.</li><br>
+         </ul>
+      </section>
+      
+      <section class="main-section" id="further_tags">
+        <header>Further Tags</header>
+        <p>Inside the <code>&lt;head&gt;</code> tag, there is one tag that is always included: <code>&lt;title&gt;</code>, but there are others that are just as important:</p>
+        <ul>
+          <li><code>&lt;title&gt;</code></li>
+          <p>This is where we insert the page name as it will appear at the top of the browser window or tab.</p>
+
+          <li><code>&lt;meta&gt;</code></li>
+          <p>This is where information about the document is stored: character encoding, name (page context), description</p>
+        </ul>
+        <p>Let's try out a basic &lt;head&gt; section:</p>
+<code>
+  &lt;head&gt;<br> &lt;title&gt;My First Webpage&lt;/title&gt;<br> &lt;meta charset="UTF-8"&gt;<br> &lt;meta name="description" content="This field contains information about your page. It is usually around two sentences long."&gt;<br> &lt;meta name="author" content="Conor Sheils"&gt; <br>
+  &lt;/head&gt;
+        </code></p></section>   
+    
+    <section class="main-section" id="adding_content">
+      <header>Adding Content</header>
+      <p>Next, we will make &lt;body&gt; tag.</p>
+      <p>The HTML &lt;body&gt; is where we add the content which is designed for viewing by human eyes</p>
+      <p>This includes text, images, tables, forms and everything else that we see on the internet each day.
+</p>
+    </section>
+    <section class="main-section" id="how_to_add_html_headings_to_your_web_page">
+      <header>How to Add HTML Headings To Your Web Page</header>
+      <p>In HTML, headings are written in the following elements:
+      </p>
+      <ul>
+        <li id="header1"><code>&lt;h1&gt;</code></li>
+        <li id="header2"><code>&lt;h2&gt;</code></li>
+        <li id="header3"><code>&lt;h3&gt;</code></li>
+        <li id="header4"><code>&lt;h4&gt;</code></li>
+        <li id="header5"><code>&lt;h5&gt;</code></li>
+        <li id="header6"><code>&lt;h6&gt;</code></li>
+        
+      </ul>
+      <p>As you might have guessed <code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code> should be used for the most important titles, while the remaining tags should be used for sub-headings and less important text.</p>
+      
+    </section>
+    <section class="main-section" id="how_to_add_text_in_html">
+      <header>How To Add Text In HTML</header>
+      <p>Adding text to our HTML page is simple using an element opened with the tag <code>&lt;p&gt;</code> which creates a new paragraph. We place all of our regular text inside the element <code>&lt;p&gt;</code>.</p>
+      
+    </section>
+      <section class="main-section" id="how_to_add_links_in_html">
+        <header>How To Add Links In HTML</header>
+<p>As you may have noticed, the internet is made up of lots of links.</p>
+<p>Almost everything you click on while surfing the web is a link takes you to another page within the website you are visiting or to an external site.
+</p>
+        <p>Links are included in an attribute opened by the &lt;a&gt; tag. This element is the first that we’ve met which uses an attribute and so it looks different to previously mentioned tags.</p>
+        <p>The &lt;a&gt; (or anchor) opening tag is written in the format:
+</p>
+        <code>
+&lt;a href="https://blogging.com/how-to-start-a-blog/">Your Link Text Here &lt;/a&gt;
+</code>
+
+
+    </section>
+      <section class="main-section" id="reference">
+        <header> Reference </header>
+<ul><li>All the documentation in this page is taken from <a href="https://html.com/">HTML.COM</a></li></ul>
+    </section>
+      
+    </main>
+  </body>
+  
+</html>
